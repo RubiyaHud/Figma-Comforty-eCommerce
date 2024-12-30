@@ -1,0 +1,736 @@
+/* All Common CSS Start */
+* {
+    margin: 0;
+    padding: 0;
+    /* For Bootstrap, we need to make outline = 0, because by default it gets some outline */
+    outline: 0;
+    font-family: "Inter", serif;
+    /* overflow-x: hidden; */
+    box-sizing: border-box;
+}
+
+/* For Bootstrap a:hover gets text-decoration, by default, so we need to make it "none" */
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+/* All Common CSS End */
+
+/* Top header part start */
+#topHeader {
+    padding: 10px 0;
+    background: #272343;
+}
+
+.topHeaderContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topHeaderLeft p {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.topHeaderRight a {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 200;
+    margin-right: 20px;
+}
+
+/* Top header part end */
+
+/* Header Part Start */
+.navbar {
+    background: #F0F2F3;
+}
+.searchContainer {
+    background: #ffff;
+    border-radius: 5px;
+    display: flex;
+    margin: auto;
+    padding: 10px 15px;
+}
+.inputBox {
+    outline: none;
+    border: none;
+    width: 355px;
+}
+.searchContainer i {
+    color: #272343;
+    padding-top: 5px;
+}
+.searchContainer input::placeholder {
+    color: #9A9CAA;
+    font-size: 16px;
+    font-weight: 400;
+}
+.headerBtnContainer a {
+    margin-right: 5px;
+}
+.headerBtn {
+    background: #fff;
+    border-radius: 8px;
+    padding: 10px;
+}
+.headerBtn span {
+    color: #272343;
+    font-size: 12px;
+    font-weight: 500;
+}
+/* Header Part End */
+
+/* Menu Part Start */
+.menuBar {
+    background: #fff;
+    border-bottom: 1px solid #F0F2F3;
+}
+.nav-link {
+    display: inline-block;
+    color: #636270;
+    font-size: 14px;
+    font-weight: 500;
+    /* padding is not applicable here, coz parent div has already used it */
+    margin: 0 15px;
+    transition: .4s;
+}
+.nav-link:hover {
+    color: #007580;
+}
+.menuBarRight {
+    color: #272343;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 110%;
+}
+.menuBarRight span {
+    color: #636270;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 110%;
+}
+.categoryBtn {
+    background-color: #fff;
+    border: 1px solid #E1E3E5;
+    border-radius: 10px;
+    padding: 15px 42px;
+    cursor: pointer;
+}
+
+.categoryBtn:hover {
+    background-color: #E1E3E5;
+}
+
+.categoryBtn span {
+    color: #272343;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+/* Menu Part End */
+
+/* Banner Part Start */
+#bannerPart {
+    padding-top: 0px;
+}
+
+.bannerBg {
+    background: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0px 0px 32px 32px;
+    position: relative;
+}
+
+.bannerOverlay {
+    padding-top: 180px;
+    padding-bottom: 170px;
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 0px 0px 32px 32px;
+    position: relative;
+}
+
+.bannerHead {
+    padding-bottom: 60px;
+}
+
+.bannerHead h3 {
+    color: #272343;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.bannerHead h1 {
+    color: #272343;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    text-transform: capitalize;
+    padding-right: 83px;
+    margin-bottom: 30px;
+}
+
+.bannerHead a {
+    border-radius: 8px;
+    background: #029FAE;
+    padding: 15px 42px;
+}
+
+.bannerHead a span {
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 15px;
+}
+
+.serviceBar {
+    background: #fff;
+    border-radius: 12px;
+    padding: 50px;
+    position: absolute;
+    top: 90%;
+    display: flex;
+    left: 10%;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.56);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.56);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.56);
+}
+
+.serviceItem {
+    display: flex;
+    gap: 10px;
+}
+
+.serviceItemOne img {
+    width: 46px;
+    height: 46px;
+}
+
+.serviceItemSecond img {
+    width: 64px;
+    height: 38px;
+}
+
+.serviceItemThird img {
+    width: 50px;
+    height: 50px;
+}
+
+.serviceItemFourth img {
+    width: 50px;
+    height: 50px;
+}
+
+.serviceItemText {
+    margin-right: 20px;
+}
+
+.serviceItemText h3 {
+    color: #272343;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+.serviceItemText p {
+    color: #9A9CAA;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+/* Banner Part End */
+
+/* Logo Part Start */
+#logoPart {
+    padding-top: 180px;
+}
+
+.logoImgOne img {
+    width: 85px;
+    height: 87px;
+}
+
+.logoImgTwo {
+    margin-left: 30px;
+}
+
+.logoImgTwo img {
+    width: 106px;
+    height: 90px;
+}
+
+.logoImgThree img {
+    width: 85px;
+    height: 87px;
+}
+
+.logoImgFour img {
+    width: 63px;
+    height: 65px;
+}
+
+.logoImgFive img {
+    width: 85px;
+    height: 87px;
+}
+
+.logoImgSix img {
+    width: 85px;
+    height: 87px;
+}
+
+.logoImgSeven img {
+    width: 85px;
+    height: 87px;
+}
+
+/* Logo Part End */
+
+/* Featured Product Part Start */
+#productPart {
+    padding-top: 75px;
+}
+
+.productHead {
+    margin-bottom: 50px;
+}
+
+.productHead h3 {
+    color: #272343;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.productItem {
+    position: relative;
+}
+
+.productItem img {
+    width: 100%;
+    /* To Erase the space between img (inline tag) and div (block tag), img is converted to block tag */
+    display: block;
+}
+
+.rightBadge {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    color: #FFF;
+    width: 43px;
+    height: 43px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.rightBadge span {
+    /* To bring the text into center of the badge */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.leftBadgeNew {
+    background: #01AD5A;
+    border-radius: 4px;
+    width: 55px;
+    height: 30px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.leftBadgeNew span {
+    color: #ffff;
+    font-size: 13px;
+    font-weight: 500;
+    /* To bring the text into center of the badge */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.leftBadgeSales {
+    background: #F5813F;
+    border-radius: 4px;
+    width: 55px;
+    height: 30px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.leftBadgeSales span {
+    color: #ffff;
+    font-size: 13px;
+    font-weight: 500;
+    /* To bring the text into center of the badge */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.productContent {
+    background: #FFFF;
+    padding-top: 20px;
+}
+
+.productText h3 {
+    color: #272343;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    transition: .4s;
+}
+
+.productText:hover h3 {
+    color: #007580;
+}
+
+.productText h4 {
+    color: #272343;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.productText h4 span {
+    color: #9A9CAA;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.cartBtn {
+    background: #F0F2F3;
+    border: none;
+    border-radius: 8px;
+    color: #FFF;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.cartBtn i {
+    color: #272343;
+    font-size: 20px;
+    /* To bring the text into center of the badge */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cartBtn:hover {
+    background: #007580;
+    color: #fff;
+}
+
+.cartBtn:hover i {
+    color: #fff;
+}
+
+/* Featured Product Part End */
+
+/* Category Part Start */
+#categoryPart {
+    padding-top: 90px;
+}
+
+.categoryHead {
+    margin-bottom: 50px;
+}
+
+.categoryHead h3 {
+    color: #272343;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.categoryItem {
+    position: relative;
+    border-radius: 10px;
+}
+
+.categoryOverlay {
+    height: 20%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 0px 0px 10px 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.categoryText {
+    padding: 25px;
+}
+
+.categoryText h3 {
+    color: #FFFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.categoryText h4 {
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+/* Category Part End */
+
+/* Our Product Part Start */
+#ourProductPart {
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+.ourProductHead h3 {
+    color: #272343;
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.ourProductMenu{
+    margin-bottom: 35px;
+}
+.ourProductMenu li {
+    display: inline-block;
+}
+.ourProductMenu li a {
+    color: #9A9CAA;
+    font-family: "DM Sans", serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.ourProductMenu li a:hover {
+    color: #272343;
+}
+.activeLink {
+    color: #272343 !important;
+    border-bottom: 2px solid #029FAE;
+}
+/* Our Product Part End */
+
+/* Review Part Start */
+#reviewPart {
+    background: #F0F2F3;
+    padding-top: 85px;
+    padding-bottom: 80px;
+}
+
+.reviewHead {
+    margin-bottom: 50px;
+}
+
+.reviewHead h3 {
+    color: #272343;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.reviewItem {
+    padding: 52px;
+    background: #ffff;
+    border-radius: 12px;
+}
+
+.reviewText {
+    position: relative;
+    border-left: 2px solid #029FAE;
+    padding-left: 17px;
+}
+
+.reviewText p {
+    color: #636270;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 150%;
+    text-transform: capitalize;
+    /* padding-bottom: 20px; */
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+.profileText h4 {
+    color: #272343;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.profileText p {
+    color: #9A9CAA;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+/* Review Part End */
+
+/* Recently Added Product Part Start */
+#recentlyAddedProductPart {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* Recently Added Product Part End */
+
+/* Footer Part Start */
+#footerPart {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    border-top: 2px solid #F0F2F3;
+    border-bottom: 2px solid #F0F2F3;
+}
+
+.footerText p {
+    color: #9A9CAA;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footerTextLineOne {
+    padding-top: 20px;
+    padding-right: 105px;
+}
+
+.footerIcon {
+    margin-top: 20px;
+}
+
+.footerIcon i {
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #ffff;
+    transition: .4s;
+}
+
+.footerIcon i:hover {
+    border-radius: 50%;
+    border: 1px solid #029FAE;
+    color: #029FAE;
+}
+
+.footerItem h3 {
+    color: #9A9CAA;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.footerItem ul {
+    padding-left: 0;
+}
+
+.footerItem li a {
+    color: #272343;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: capitalize;
+    transition: .4s;
+}
+
+.footerItem li a:hover {
+    border-bottom: 1px solid #029FAE;
+    color: #029FAE;
+}
+
+.footerItem input {
+    padding: 7px 40px 7px 14px;
+    border: 1px solid #E1E3E5;
+    border-radius: 8px;
+}
+
+.footerItem input::placeholder {
+    color: #9A9CAA;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footerItem button {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    background: #029FAE;
+    border-radius: 8px;
+    padding: 7px 20px;
+    margin-left: 5px;
+    border: none;
+}
+
+.footerItem p {
+    color: #9A9CAA;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+    padding-top: 10px;
+    padding-right: 61px;
+}
+
+/* Footer Part End */
+
+/* Footer Bottom Part Start */
+#footerBottomPart {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footerBottomText p {
+    color: #9A9CAA;
+    font-family: "Poppins", serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footerBottomLogo {
+    background-color: transparent;
+    opacity: 0.5;
+}
+
+.footerBottomLogo img {
+    padding-left: 5px;
+    width: 45px;
+}
+
+/* Footer Bottom Part End */

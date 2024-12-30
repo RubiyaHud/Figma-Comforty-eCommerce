@@ -1,0 +1,1262 @@
+/* Extra large devices */
+@media (min-width: 1200px) {}
+    
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* All Common CSS Start */
+    * {
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    /* All Common CSS End */
+
+    /* Top Header Part Start */
+    #topHeader {
+        padding: 8px 0;
+        /* position: fixed;
+        width: 100%;
+        z-index: 999; */
+    }
+    .topHeaderContent {
+        display: flex;
+    }
+    .topHeaderLeft {
+        text-align: center;
+    }
+    .topHeaderLeft p {
+        padding-bottom: 5px;
+    }
+    .topHeaderRight {
+        text-align: center;
+    }
+    /* Top Header Part End */
+
+    /* Header Part Start */
+    .navbar-brand {
+        margin: auto;
+        padding-bottom: 10px;
+    }
+    .navbar-brand img {
+        width: 130px;
+    }
+    .inputBox {
+        width: 210px;
+    }
+    .headerBtnContainer {
+        margin: auto;
+        padding-top: 10px;
+    }
+    .headerBtn {
+        padding: 5px 10px 5px 10px;
+    }
+    .headerBtnContainer a {
+        margin-right: 7px;
+    }
+    .searchContainer {
+        padding: 5px 15px;
+    }
+    .searchContainer input::placeholder {
+        font-size: 13px;
+    }
+    /* Header Part End */
+
+    /* Menu Part Start */
+    .navbar-toggler {
+        border: 1px solid #029FAE;
+        color: #029FAE;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-nav {
+        margin-bottom: 0;
+    }
+
+    .navbar-collapse {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .nav-link:hover {
+        color: #007580;
+    }
+    .categoryBtn {
+        padding: 10px 20px;
+    }
+    /* Menu Part End */
+
+    /* Banner Part Start */
+    .bannerOverlay {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+    .bannerHead {
+        text-align: center;
+    }
+    .bannerHead a {
+        padding: 10px;
+    }
+    .bannerHead a span {
+        font-size: 15px;
+    }
+    .bannerHead h1 {
+        font-size: 32px;
+        line-height: 45px;
+        padding: 0px 84px;
+        margin-bottom: 20px;
+    }
+    .serviceBar {
+        display: flex;
+        position: static;
+        padding: 0;
+        width: 80%;
+        margin: auto;
+    }
+    .serviceItem {
+        margin: 20px;
+    }
+    .serviceItemText p {
+        font-size: 10px;
+        line-height: 11px;
+    }
+    .serviceItemText h3 {
+        font-size: 13px;
+        padding-top: 6px;
+    }
+    .serviceItemOne img {
+        width: 36px;
+        height: 36px;
+    }
+    .serviceItemSecond img {
+        width: 40px;
+        height: 29px;
+    }
+    .serviceItemThird img {
+        width: 40px;
+        height: 40px;
+    }
+    .serviceItemFourth img {
+        width: 40px;
+        height: 40px;
+    }
+    /* Banner Part End */
+
+    /* Logo Part Start */
+
+    #logoPart {
+        padding-top: 2px;
+        text-align: center;
+    }
+    /* Logo Part End */
+
+    /* Featured Product Part Start */
+    #productPart {
+        padding-top: 15px;
+    }
+    .productHead {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .productHead h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    .productItem {
+        margin-bottom: 25px;
+    }
+    .productText h3 {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    .productText h4 {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    .productText h4 span {
+        font-size: 13px;
+    }
+    .cartBtn {
+        width: 45px;
+        height: 45px;
+    }
+    /* Featured Product Part End */
+
+    /* Category Part Start */
+    #categoryPart {
+        padding-top: 35px;
+    }
+    .categoryHead {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .categoryHead h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    .categoryItem {
+        margin-bottom: 15px;
+    }
+    .categoryText {
+        padding: 12px;
+    }
+    .categoryText h3 {
+        font-size: 15px;
+    }
+    .categoryText h4 {
+        font-size: 11px;
+    }
+    /* Category Part End */
+    
+    /* Our Product Part Start */
+    #ourProductPart {
+        padding-top: 35px;
+        padding-bottom: 20px;
+    }
+    .ourProductHead h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    .ourProductMenu {
+        margin-bottom: 0px;
+    }
+    .ourProductMenu ul {
+        padding-left: 0px;
+    }
+    .ourProductMenu li a {
+        font-size: 14px;
+    }
+    #allProduct .mb-5 {
+        margin-bottom: 0px !important;
+    }
+    /* Our Product Part End */
+
+    /* Review Part Start */
+    #reviewPart {
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+    .reviewHead {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .reviewHead h3 {
+        font-size: 23px;
+        padding-bottom: 15px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .reviewItem {
+        padding: 25px;
+        margin-bottom: 25px;
+    }
+    .reviewText p {
+        font-size: 14px;
+    }
+    .profile {
+        display: block;
+        text-align: center;
+        padding-top: 0px;
+    }
+    .profileText {
+        margin-bottom: 20px;
+    }
+    /* Review Part End */
+
+    /* Recently Added Product Part Start */
+    #recentlyAddedProductPart {
+        padding-top: 35px;
+        padding-bottom: 25px;
+    }
+    /* Recently Added Product Part End */
+
+    /* Footer Part Start */
+    #footerPart {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+    .footerText {
+        text-align: center;
+    }
+    .footerText img{
+        width: 140px;
+    }
+    .footerTextLineOne {
+        padding-top: 10px;
+        padding-right: 0px;
+    }
+    .footerIcon {
+        margin-top: 15px;
+    }
+    .footerItem {
+        margin-top: 15px;
+        text-align: center;
+    }
+    .footerItem li a {
+        line-height: 23px;
+    }
+    .footerItem input {
+        padding: 5px 10px;
+        margin-bottom: 9px;
+    }
+    .footerItem input::placeholder {
+        font-size: 15px;
+    }
+    .footerItem p {
+        padding-right: 0;
+    }
+    .footerBottomLogo {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .footerBottomLogo img {
+        width: 40px;
+    }
+    .footerBottomText p {
+        padding-bottom: 5px;
+    }
+    /* Footer Part End */
+
+}
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* All Common CSS Start */
+    * {
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    /* All Common CSS End */
+
+    /* Top Header Part Start */
+    #topHeader {
+        padding: 8px 0;
+        /* position: fixed;
+        width: 100%;
+        z-index: 999; */
+    }
+    .topHeaderContent {
+        display: block;
+    }
+    .topHeaderLeft {
+        text-align: center;
+    }
+    .topHeaderLeft p {
+        padding-bottom: 5px;
+    }
+    .topHeaderRight {
+        text-align: center;
+    }
+    /* Top Header Part End */
+
+    /* Header Part Start */
+    .navbar-brand {
+        margin: auto;
+        padding-bottom: 10px;
+    }
+    .navbar-brand img {
+        width: 130px;
+    }
+    .inputBox {
+        width: 210px;
+    }
+    .headerBtnContainer {
+        margin: auto;
+        padding-top: 10px;
+    }
+    .headerBtn {
+        padding: 5px 10px 5px 10px;
+    }
+    .headerBtnContainer a {
+        margin-right: 7px;
+    }
+    .searchContainer {
+        padding: 5px 15px;
+    }
+    .searchContainer input::placeholder {
+        font-size: 13px;
+    }
+    /* Header Part End */
+
+    /* Menu Part Start */
+    .navbar-toggler {
+        border: 1px solid #029FAE;
+        color: #029FAE;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-nav {
+        margin-bottom: 10px;
+    }
+    .navbar-collapse {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .nav-link:hover {
+        color: #007580;
+    }
+    .categoryBtn {
+        padding: 10px 20px;
+    }
+    /* Menu Part End */
+
+    /* Banner Part Start */
+    .bannerOverlay {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+    .bannerHead {
+        text-align: center;
+    }
+    .bannerHead a {
+        padding: 10px;
+    }
+    .bannerHead a span {
+        font-size: 15px;
+    }
+    .bannerHead h1 {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 45px;
+        padding: 0px 120px;
+        margin-bottom: 20px;
+    }
+    .serviceBar {
+        display: block;
+        position: static;
+        padding: 0;
+        width: 80%;
+        margin: auto;
+    }
+    .serviceItem {
+        margin: 20px;
+    }
+    .serviceItemText p {
+        font-size: 10px;
+        line-height: 11px;
+    }
+    .serviceItemText h3 {
+        font-size: 13px;
+        padding-top: 6px;
+    }
+    .serviceItemOne img {
+        width: 36px;
+        height: 36px;
+    }
+    .serviceItemSecond img {
+        width: 40px;
+        height: 29px;
+    }
+    .serviceItemThird img {
+        width: 40px;
+        height: 40px;
+    }
+    .serviceItemFourth img {
+        width: 40px;
+        height: 40px;
+    }
+    /* Banner Part End */
+
+    /* Logo Part Start */
+
+    #logoPart {
+        padding-top: 2px;
+        text-align: center;
+    }
+    /* Logo Part End */
+
+    /* Featured Product Part Start */
+    #productPart {
+        padding-top: 15px;
+    }
+    .productHead {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .productHead h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    .productItem {
+        margin-bottom: 25px;
+    }
+    .productText h3 {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    .productText h4 {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    .productText h4 span {
+        font-size: 13px;
+    }
+    .cartBtn {
+        width: 45px;
+        height: 45px;
+    }
+    /* Featured Product Part End */
+
+    /* Category Part Start */
+    #categoryPart {
+        padding-top: 35px;
+    }
+    .categoryHead {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .categoryHead h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    .categoryItem {
+        margin-bottom: 15px;
+    }
+    .categoryText {
+        padding: 12px;
+    }
+    .categoryText h3 {
+        font-size: 15px;
+    }
+    .categoryText h4 {
+        font-size: 11px;
+    }
+    /* Category Part End */
+    
+    /* Our Product Part Start */
+    #ourProductPart {
+        padding-top: 35px;
+        padding-bottom: 20px;
+    }
+    .ourProductHead h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    .ourProductMenu {
+        margin-bottom: 0px;
+    }
+    .ourProductMenu ul {
+        padding-left: 0px;
+    }
+    .ourProductMenu li a {
+        font-size: 14px;
+    }
+    #allProduct .mb-5 {
+        margin-bottom: 0px !important;
+    }
+    /* Our Product Part End */
+
+    /* Review Part Start */
+    #reviewPart {
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+    .reviewHead {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .reviewHead h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+        padding-right: 52px;
+        padding-left: 52px;
+        line-height: 35px;
+        text-transform: capitalize;
+    }
+    .reviewItem {
+        padding: 25px;
+        margin-bottom: 25px;
+    }
+    .reviewText p {
+        font-size: 14px;
+    }
+    .profile {
+        display: block;
+        text-align: center;
+        padding-top: 0px;
+    }
+    .profileText {
+        margin-bottom: 20px;
+    }
+    /* Review Part End */
+
+    /* Recently Added Product Part Start */
+    #recentlyAddedProductPart {
+        padding-top: 35px;
+        padding-bottom: 25px;
+    }
+    /* Recently Added Product Part End */
+
+    /* Footer Part Start */
+    #footerPart {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+    .footerText {
+        text-align: center;
+    }
+    .footerText img{
+        width: 140px;
+    }
+    .footerTextLineOne {
+        padding-top: 10px;
+        padding-right: 0px;
+    }
+    .footerIcon {
+        margin-top: 15px;
+    }
+    .footerItem {
+        margin-top: 15px;
+        text-align: center;
+    }
+    .footerItem li a {
+        line-height: 23px;
+    }
+    .footerItem input {
+        padding: 5px 10px;
+        margin-bottom: 9px;
+    }
+    .footerItem input::placeholder {
+        font-size: 15px;
+    }
+    .footerItem p {
+        padding-right: 0;
+    }
+    .footerBottomLogo {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .footerBottomLogo img {
+        width: 40px;
+    }
+    .footerBottomText p {
+        padding-bottom: 5px;
+    }
+    /* Footer Part End */
+}
+
+/* Small devices  */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* All Common CSS Start */
+    * {
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    /* All Common CSS End */
+
+    /* Top Header Part Start */
+    #topHeader {
+        padding: 8px 0;
+        /* position: fixed;
+        width: 100%;
+        z-index: 999; */
+    }
+    .topHeaderContent {
+        display: block;
+    }
+    .topHeaderLeft {
+        text-align: center;
+    }
+    .topHeaderLeft p {
+        padding-bottom: 5px;
+    }
+    .topHeaderRight {
+        text-align: center;
+    }
+    /* Top Header Part End */
+
+    /* Header Part Start */
+    .navbar-brand {
+        margin: auto;
+        padding-bottom: 10px;
+    }
+    .navbar-brand img {
+        width: 130px;
+    }
+    .inputBox {
+        width: 210px;
+    }
+    .headerBtnContainer {
+        margin: auto;
+        padding-top: 10px;
+    }
+    .headerBtn {
+        padding: 5px 10px 5px 10px;
+    }
+    .headerBtnContainer a {
+        margin-right: 7px;
+    }
+    .searchContainer {
+        padding: 5px 15px;
+    }
+    .searchContainer input::placeholder {
+        font-size: 13px;
+    }
+    /* Header Part End */
+
+    /* Menu Part Start */
+    .navbar-toggler {
+        border: 1px solid #029FAE;
+        color: #029FAE;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-nav {
+        margin-bottom: 10px;
+    }
+    .navbar-collapse {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .nav-link:hover {
+        color: #007580;
+    }
+    .categoryBtn {
+        padding: 10px 20px;
+    }
+    /* Menu Part End */
+
+    /* Banner Part Start */
+    .bannerOverlay {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+    .bannerHead {
+        text-align: center;
+    }
+    .bannerHead a {
+        padding: 10px 15px;
+    }
+    .bannerHead h1 {
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 45px;
+        padding: 0px 40px 0px 40px;
+    }
+    .serviceBar {
+        display: block;
+        position: static;
+        padding: 0;
+        width: 80%;
+        margin: auto;
+    }
+    .serviceItem {
+        margin: 20px;
+    }
+    .serviceItemText p {
+        font-size: 10px;
+        line-height: 11px;
+    }
+    .serviceItemText h3 {
+        font-size: 13px;
+        padding-top: 6px;
+    }
+    .serviceItemOne img {
+        width: 36px;
+        height: 36px;
+    }
+    .serviceItemSecond img {
+        width: 40px;
+        height: 29px;
+    }
+    .serviceItemThird img {
+        width: 40px;
+        height: 40px;
+    }
+    .serviceItemFourth img {
+        width: 40px;
+        height: 40px;
+    }
+    /* Banner Part End */
+
+    /* Logo Part Start */
+
+    #logoPart {
+        padding-top: 2px;
+        text-align: center;
+    }
+    /* Logo Part End */
+
+    /* Featured Product Part Start */
+    #productPart {
+        padding-top: 15px;
+    }
+    .productHead {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .productHead h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    .productItem {
+        margin-bottom: 25px;
+    }
+    .productText h3 {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    .productText h4 {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    .productText h4 span {
+        font-size: 13px;
+    }
+    .cartBtn {
+        width: 45px;
+        height: 45px;
+    }
+    /* Featured Product Part End */
+
+    /* Category Part Start */
+    #categoryPart {
+        padding-top: 35px;
+    }
+    .categoryHead {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .categoryHead h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    .categoryItem {
+        margin-bottom: 15px;
+    }
+    .categoryText {
+        padding: 12px;
+    }
+    .categoryText h3 {
+        font-size: 15px;
+    }
+    .categoryText h4 {
+        font-size: 11px;
+    }
+    /* Category Part End */
+    
+    /* Our Product Part Start */
+    #ourProductPart {
+        padding-top: 35px;
+        padding-bottom: 20px;
+    }
+    .ourProductHead h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    .ourProductMenu {
+        margin-bottom: 0px;
+    }
+    .ourProductMenu ul {
+        padding-left: 0px;
+    }
+    .ourProductMenu li a {
+        font-size: 14px;
+    }
+    #allProduct .mb-5 {
+        margin-bottom: 0px !important;
+    }
+    /* Our Product Part End */
+
+    /* Review Part Start */
+    #reviewPart {
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+    .reviewHead {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .reviewHead h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+        padding-right: 52px;
+        padding-left: 52px;
+        line-height: 35px;
+        text-transform: capitalize;
+    }
+    .reviewItem {
+        padding: 25px;
+        margin-bottom: 25px;
+    }
+    .reviewText p {
+        font-size: 14px;
+    }
+    .profile {
+        display: block;
+        text-align: center;
+        padding-top: 0px;
+    }
+    .profileText {
+        margin-bottom: 20px;
+    }
+    /* Review Part End */
+
+    /* Recently Added Product Part Start */
+    #recentlyAddedProductPart {
+        padding-top: 35px;
+        padding-bottom: 25px;
+    }
+    /* Recently Added Product Part End */
+
+    /* Footer Part Start */
+    #footerPart {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+    .footerText {
+        text-align: center;
+    }
+    .footerText img{
+        width: 140px;
+    }
+    .footerTextLineOne {
+        padding-top: 10px;
+        padding-right: 0px;
+    }
+    .footerIcon {
+        margin-top: 15px;
+    }
+    .footerItem {
+        margin-top: 15px;
+        text-align: center;
+    }
+    .footerItem li a {
+        line-height: 23px;
+    }
+    .footerItem input {
+        padding: 5px 10px;
+        margin-bottom: 9px;
+    }
+    .footerItem input::placeholder {
+        font-size: 15px;
+    }
+    .footerItem p {
+        padding-right: 0;
+    }
+    .footerBottomLogo {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .footerBottomLogo img {
+        width: 40px;
+    }
+    .footerBottomText p {
+        padding-bottom: 5px;
+    }
+    /* Footer Part End */
+}
+
+/* Extra small devices */
+@media (max-width: 575.98px) {
+
+    /* All Common CSS Start */
+    * {
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    /* All Common CSS End */
+
+    /* Top Header Part Start */
+    #topHeader {
+        padding: 8px 0;
+        /* position: fixed;
+        width: 100%;
+        z-index: 999; */
+    }
+    .topHeaderContent {
+        display: block;
+    }
+    .topHeaderLeft {
+        text-align: center;
+    }
+    .topHeaderLeft p {
+        padding-bottom: 5px;
+    }
+    .topHeaderRight {
+        text-align: center;
+    }
+    /* Top Header Part End */
+
+    /* Header Part Start */
+    .navbar-brand {
+        margin: auto;
+        padding-bottom: 10px;
+    }
+    .navbar-brand img {
+        width: 130px;
+    }
+    .inputBox {
+        width: 210px;
+    }
+    .headerBtnContainer {
+        margin: auto;
+        padding-top: 10px;
+    }
+    .headerBtn {
+        padding: 5px 10px 5px 10px;
+    }
+    .headerBtnContainer a {
+        margin-right: 7px;
+    }
+    .searchContainer {
+        padding: 5px 15px;
+    }
+    .searchContainer input::placeholder {
+        font-size: 13px;
+    }
+    /* Header Part End */
+
+    /* Menu Part Start */
+    .navbar-toggler {
+        border: 1px solid #029FAE;
+        color: #029FAE;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+    .navbar-nav {
+        margin-bottom: 10px;
+    }
+    .navbar-collapse {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .nav-link:hover {
+        color: #007580;
+    }
+    .categoryBtn {
+        padding: 10px 20px;
+    }
+    /* Menu Part End */
+
+    /* Banner Part Start */
+    .bannerOverlay {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+    .bannerHead {
+        text-align: center;
+    }
+    .bannerHead a {
+        padding: 10px 15px;
+    }
+    .bannerHead h1 {
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 45px;
+        padding: 0px 40px 0px 40px;
+    }
+    .serviceBar {
+        display: block;
+        position: static;
+        padding: 0;
+        width: 80%;
+        margin: auto;
+    }
+    .serviceItem {
+        margin: 20px;
+    }
+    .serviceItemText p {
+        font-size: 10px;
+        line-height: 11px;
+    }
+    .serviceItemText h3 {
+        font-size: 13px;
+        padding-top: 6px;
+    }
+    .serviceItemOne img {
+        width: 36px;
+        height: 36px;
+    }
+    .serviceItemSecond img {
+        width: 40px;
+        height: 29px;
+    }
+    .serviceItemThird img {
+        width: 40px;
+        height: 40px;
+    }
+    .serviceItemFourth img {
+        width: 40px;
+        height: 40px;
+    }
+    /* Banner Part End */
+
+    /* Logo Part Start */
+
+    #logoPart {
+        padding-top: 2px;
+        text-align: center;
+    }
+    /* Logo Part End */
+
+    /* Featured Product Part Start */
+    #productPart {
+        padding-top: 15px;
+    }
+    .productHead {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .productHead h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    .productItem {
+        margin-bottom: 25px;
+    }
+    .productText h3 {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+    .productText h4 {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    .productText h4 span {
+        font-size: 13px;
+    }
+    .cartBtn {
+        width: 45px;
+        height: 45px;
+    }
+    /* Featured Product Part End */
+
+    /* Category Part Start */
+    #categoryPart {
+        padding-top: 35px;
+    }
+    .categoryHead {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .categoryHead h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    .categoryItem {
+        margin-bottom: 15px;
+    }
+    .categoryText {
+        padding: 12px;
+    }
+    .categoryText h3 {
+        font-size: 15px;
+    }
+    .categoryText h4 {
+        font-size: 11px;
+    }
+    /* Category Part End */
+    
+    /* Our Product Part Start */
+    #ourProductPart {
+        padding-top: 35px;
+        padding-bottom: 20px;
+    }
+    .ourProductHead h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+    }
+    .ourProductMenu {
+        margin-bottom: 0px;
+    }
+    .ourProductMenu ul {
+        padding-left: 0px;
+    }
+    .ourProductMenu li a {
+        font-size: 14px;
+    }
+    #allProduct .mb-5 {
+        margin-bottom: 0px !important;
+    }
+    /* Our Product Part End */
+
+    /* Review Part Start */
+    #reviewPart {
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+    .reviewHead {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .reviewHead h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+        padding-right: 52px;
+        padding-left: 52px;
+        line-height: 35px;
+        text-transform: capitalize;
+    }
+    .reviewItem {
+        padding: 25px;
+        margin-bottom: 25px;
+    }
+    .reviewText p {
+        font-size: 14px;
+    }
+    .profile {
+        display: block;
+        text-align: center;
+        padding-top: 0px;
+    }
+    .profileText {
+        margin-bottom: 20px;
+    }
+    /* Review Part End */
+
+    /* Recently Added Product Part Start */
+    #recentlyAddedProductPart {
+        padding-top: 35px;
+        padding-bottom: 25px;
+    }
+    /* Recently Added Product Part End */
+
+    /* Footer Part Start */
+    #footerPart {
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+    .footerText {
+        text-align: center;
+    }
+    .footerText img{
+        width: 140px;
+    }
+    .footerTextLineOne {
+        padding-top: 10px;
+        padding-right: 0px;
+    }
+    .footerIcon {
+        margin-top: 15px;
+    }
+    .footerItem {
+        margin-top: 15px;
+        text-align: center;
+    }
+    .footerItem li a {
+        line-height: 23px;
+    }
+    .footerItem input {
+        padding: 5px 10px;
+        margin-bottom: 9px;
+    }
+    .footerItem input::placeholder {
+        font-size: 15px;
+    }
+    .footerItem p {
+        padding-right: 0;
+    }
+    .footerBottomLogo {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .footerBottomLogo img {
+        width: 40px;
+    }
+    .footerBottomText p {
+        padding-bottom: 5px;
+    }
+    /* Footer Part End */
+}
